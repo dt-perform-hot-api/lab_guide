@@ -16,3 +16,9 @@ We will create a MASTER token that will be for token management.
 
     ![scope](../../assets/images/scope.png)
 
+    ...and then click *Generate*
+
+4. Copy the new API token generated and store it somewhere (ie. notepad)
+
+    ![token](../../assets/images/token.png)
+
