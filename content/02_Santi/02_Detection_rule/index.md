@@ -1,6 +1,6 @@
 ## Application Detection Rule API
 
-1. Open  <a href="https://www.dynatrace.com/support/help/dynatrace-api/configuration-api/rum/application-detection-configuration/post-rule" target="_blank">Application detection rule API</a> documentation
+1. For reference open <a href="https://www.dynatrace.com/support/help/dynatrace-api/configuration-api/rum/application-detection-configuration/post-rule" target="_blank">Application detection rule API</a> documentation
 
 2. Go back to terminal and run dt api kit:
 
