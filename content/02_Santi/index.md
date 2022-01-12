@@ -1,31 +1,15 @@
-## Preparation
+## Dynatrace API kit
 
-During this hands on section, we will cover:
+Dynatrace API is a very powerful tool and can achieve so much outside of Dynatrace UI. We can use it for configuration, deployment, dashboards, metric ingestion, events, etc. Today's session we will help you understand the structure of some of the APIs and how can they be used. Some of them that will be covered include:
+
 1. Web Application API
 2. App detection rules API
 3. Auto Tagging rules API
+4. Synthetic API
+5. Management zone API
+6. Dashboard API
+7. Conditional Naming
 
-
-Projects used for this session
-- [NodeJS](https://nodejs.org/)
-- [Dynatrace API ](https://www.dynatrace.com/support/help/dynatrace-api)
-
-
-Access your Dynatrace environment at www.dynatrace.com and click 'SaaS login'.
-
-Use your HOT session credentials to login to your tenant.
-
-### Setup
-#### Management Zone
-- We need to create a management zone that we can use later as an SLO filter criteria.
-- For this scenario, we will use a very simple management zone that simply checks if a service name exists. 
-1. In your tenant, navigate to Settings > Preferences > Management Zones
-2. Click the button 'Add new management zone'
-3. Name this management zone 'Services' and leave the optional description field blank. 
-4. Click the 'Add a new rule' button.
-5. Under conditions, click the drop-down and select 'Service name'. Next, select the drop-down menu to the right of Service Name and select 'exists'.
-6. Apply to both underlying hosts and process groups of the matching services.
-7. Finally, preview your changes and make sure services and hosts show up in the preview section. Your final rule should look like the example image below.
-</br></br>
-
-![Example Management Zone](../../assets/simple_management_zone.png)
+### Projects used for this session
+- <a href="https://nodejs.org/" target="_blank">NodeJS</a>
+- <a href="https://www.dynatrace.com/support/help/dynatrace-api" target="_blank">Dynatrace API</a>
