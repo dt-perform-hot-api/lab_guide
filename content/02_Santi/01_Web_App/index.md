@@ -21,4 +21,3 @@
 
 5. Go to history.log and verify your deployment
     ![webapp](../../assets/images/webapp.png)
-6. 
