@@ -18,13 +18,12 @@
 
     ```
    If you don't have the URL, go to the bastion terminal and run: 
-
+   
    ```
    kubectl get services -o wide --namespace production
    ```
    
-   And copy front-end url adding HTTP://<your external-ip>:8080
-
-    ![appDetect](../../assets/images/appDetect.png)
+   And copy front-end url adding HTTP://your external-ip:8080<br>
+   ![appDetect](../../assets/images/appDetect.png)
 
 5. Go to history.log and verify your deployment
