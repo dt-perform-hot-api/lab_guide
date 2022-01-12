@@ -14,7 +14,7 @@
    Choose an application for the detection rule: Sockshop (Production)
    Do you want to match Domain or URL? URL
    Choose one rule: CONTAINS
-   What does the "URL" should match "CONTAINS"?: <your Sockshop front-end external IP saved before>   
+   What does the "URL" should match "CONTAINS"?: <your Sockshop front-end external IP saved before>:8080   
 
     ```
    
