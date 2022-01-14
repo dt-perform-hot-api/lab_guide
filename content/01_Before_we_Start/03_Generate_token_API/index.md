@@ -11,23 +11,27 @@ Using Dynatrace API, you will generate a Token with a wide-spread scope
     ```bash
     git clone <perform repo>
     ``` 
+3. Access automation_programmability_with_Dynatrace_API directory
+    ```bash
+    cd automation_programmability_with_Dynatrace_API
+    ```
 
-3. Access dt-api-kit directory: 
+4. Access dt-api-kit directory: 
     ```bash
     cd dt-api-kit
     ```
 
-4. Install npm packages:
+5. Install npm packages:
     ```bash
     npm install
     ```
 
-5. Run generateToken.js:
+6. Run generateToken.js:
     ```bash
     node generateToken.js
     ```
 
-6. Follow the instructions and enter the requested information:
+7. Follow the instructions and enter the requested information:
 
     ![tokenPrompt](../../assets/images/tokenPrompt.png)
 
@@ -37,13 +41,13 @@ Using Dynatrace API, you will generate a Token with a wide-spread scope
     token Name: hot2022
     Expiration days: 5
     ```
-7. Verify that .env and TOKEN.log have been created:
+8. Verify that .env and TOKEN.log have been created:
     ```bash
     cat ../TOKEN.log
     ```
     ```bash
     cat .env
     ```
-8. Verify that the token you generated via API is showing in your tenant (Settings >> Integration >> Dynatrace API)
+9. Verify that the token you generated via API is showing in your tenant (Settings >> Integration >> Dynatrace API)
 
     ![tokenGenerated](../../assets/images/generatedToken.png)
