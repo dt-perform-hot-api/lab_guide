@@ -40,3 +40,20 @@ The best place to build metric selectors is in the Data Explorer
 
 ## Step 3. Timeframe
 1. From what period of time do I want to pull my data?
+- Default is the current timeframe to two hours ago
+- The "From" field will represent the start of the timeframe
+- The "To" field will represent the end of the timeframe
+
+## Step. 4 Entity Selector
+1. How can I filter the entities?
+- Entity selectors require the "type()" element
+- Example: type(SERVICE),mzName('DEV') 
+
+## Step. 5 Metric Transformations
+1. How can I augment my data?
+- Delta: Take the difference between data points
+- Fold: Combine data points into a singular data point
+- Last: Returns the most recent datapoint
+- Limit: Returns the specified number of tuples
+- Merge: Removes specified dimesnions from the result
+
